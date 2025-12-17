@@ -1,0 +1,12 @@
+data/
+datasets/
+*.csv
+*.zip
+*.npy
+*.h5
+*.pkl
+*.pt
+*.joblib
+.env
+__pycache__/
+.ipynb_checkpoints/

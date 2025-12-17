@@ -1,0 +1,29 @@
+{
+  "chosen_model": "rf",
+  "model_label": "RF",
+  "n_features": 43,
+  "metrics": {
+    "name": "rf",
+    "accuracy": 0.9387755102040817,
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1": 0.9411764705882353,
+    "auc": 0.9383333333333332
+  },
+  "threshold_info": {
+    "selected_threshold": 0.5,
+    "f1_at_threshold": 0.9411764705882353,
+    "recall_at_threshold": 1.0,
+    "note": "Use this probability threshold for verdict."
+  },
+  "confusion_matrix": {
+    "TN": 22,
+    "FP": 3,
+    "FN": 0,
+    "TP": 24
+  },
+  "class_distribution": {
+    "0": 123,
+    "1": 120
+  }
+}
